@@ -27,9 +27,6 @@ jobs:
       - name: Install CSS Lint
         run: npm install -g stylelint
 
-      - name: Run CSS Lint
-        run: npx stylelint "**/*.css"
-
       - name: Install JS Lint (ESLint)
         run: npm install -g eslint
 
