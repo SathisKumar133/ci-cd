@@ -28,7 +28,7 @@ jobs:
         run: npm install -g stylelint
 
       - name: Install JS Lint (ESLint)
-        run: npm install -g eslint @eslint/js
+        run: npm install -g eslint 
 
       - name: Run JS Lint
         run: npx eslint "**/*.js"
